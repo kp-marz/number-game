@@ -1,0 +1,52 @@
+header {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.dot {
+    height: 50px;
+    width: 50px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    margin: 5px;
+  }
+
+.correct-dot{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    background-color: green;
+    line-height: 50px;
+    margin: 5px;
+}
+
+.incorrect-dot{    
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    background-color: red;
+    line-height: 50px;
+    margin: 5px;
+}
+
+#gameBar {
+    width:200px;
+}
+
+#playingField{
+    text-align: center;
+    padding-top: 50px;
+}
+
+header {
+    background-color: #E8E8E8;
+    padding: 20px 0px ;
+}
